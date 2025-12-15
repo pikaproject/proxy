@@ -8,7 +8,7 @@ After=network.target
 Type=simple
 Restart=always
 RestartSec=3
-ExecStart=/s5light/s5light
+ExecStart=/s5light/s5light —-config /s5light/config.yaml
 WorkingDirectory=/s5light/
 
 [Install]
